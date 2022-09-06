@@ -1,0 +1,15 @@
+.headDiv{
+  background-image: "C:\Users\aleks\Desktop\IMG_20220828_152001.jpg";
+  color: whitesmoke;
+  font-family: monospace, 'Courier New', Courier;
+  font-size: large;
+}
+.postDiv{
+  color: black;
+  font-family: monospace, 'Courier New', Courier;
+  background-color: aliceblue;
+}
+h1{
+  color: rgb(2, 6, 26);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
