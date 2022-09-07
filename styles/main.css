@@ -1,15 +1,106 @@
-.headDiv{
-  background-image: "https://pixabay.com/photos/notepad-glasses-travel-planning-1130743/";
-  color: whitesmoke;
-  font-family: monospace, 'Courier New', Courier;
-  font-size: large;
+
+
+body{
+  background-color: #34333f;
+  opacity: 1;
 }
+
+.headDiv {
+  background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
+  background-size: cover;
+  color: #64d86b;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 8em;
+  padding: 0.25em;
+  margin: auto;
+  text-align: center;
+  }
+
+@media screen and (max-width: 768px) {
+  body{
+    background-color: #3e4e97;
+    opacity: 1;
+  }
+  .headDiv {
+    background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
+    background-size: cover;
+    color: #64d86b;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6em;
+    padding: 0.25em;
+    margin: auto;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    background-color: #05910e;
+    opacity: 1;
+  }
+  .headDiv {
+    background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
+    background-size: cover;
+    color: #64d86b;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    padding: 0.25em;
+    margin: auto;
+    text-align: center;  
+  }
+}
+
+  .buttonDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .button{
+  border: 1em;
+  color: rgb(18, 18, 19);
+  padding: 0.75em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 1em;
+  cursor: pointer;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 48%;
+  
+  }
+
+  .button1{
+    background-color: rgb(9, 9, 146);
+    border:2px solid rgb(13, 0, 71);
+    box-shadow: 0 15px 40px 0 rgb(13, 5, 46);
+    }
+
+  .button2{
+    background-color: rgb(150, 2, 2);
+    border: 2px solid rgb(46, 5, 5);
+    box-shadow: 0 15px 40px 0 rgb(46, 5, 5);
+  }
+
 .postDiv{
-  color: black;
-  font-family: monospace, 'Courier New', Courier;
-  background-color: aliceblue;
+  color: rgb(16, 15, 20);
+  font-family: 'Mina', sans-serif;
+  font-size: large;
+  background-color: rgb(217, 219, 228);
+  opacity: 0.8;
+  margin: 1em;
+  padding: 1em;
 }
+
 h1{
-  color: rgb(2, 6, 26);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #191a22;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: lighter;
+  font-size: 25px;
 }
