@@ -1,14 +1,39 @@
 
 
 body{
-  background-color: #34333f;
+  background-color: #222831;
   opacity: 1;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: #8f8989;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #8f8989;
+}
+
+a:hover, button:hover {
+  text-decoration: none;
+  color: #e7e0e0;
+}
+
+a:active {
+  text-decoration: none;
+  color: #8f8989;
 }
 
 .headDiv {
   background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
   background-size: cover;
-  color: #64d86b;
+  color: #e7e0e0;
   font-family: 'Permanent Marker', cursive;
   font-size: 8em;
   padding: 0.25em;
@@ -24,7 +49,7 @@ body{
   .headDiv {
     background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
     background-size: cover;
-    color: #64d86b;
+    color: #e7e0e0;
     font-family: 'Permanent Marker', cursive;
     font-size: 6em;
     padding: 0.25em;
@@ -35,13 +60,13 @@ body{
 
 @media screen and (max-width: 320px) {
   body{
-    background-color: #05910e;
+    background-color: #7b8c91;
     opacity: 1;
   }
   .headDiv {
     background-image: url("/pexels-adrien-olichon-2387532.jpg") ;
     background-size: cover;
-    color: #64d86b;
+    color: #e7e0e0;
     font-family: 'Permanent Marker', cursive;
     font-size: 3em;
     padding: 0.25em;
@@ -55,41 +80,36 @@ body{
   align-items: center;
   justify-content: center;
   }
+
   .button{
   border: 1em;
-  color: rgb(18, 18, 19);
   padding: 0.75em;
+  color:#8f8989;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
-  margin: 1em;
+  margin: 1em 0.5em 1em 0.5em;
   cursor: pointer;
   font-family: 'Permanent Marker', cursive;
   border-radius: 48%;
-  
+  background-color: #ffd369;
+  border:2px solid rgb(158, 117, 4);
+  box-shadow: 0 15px 40px 0 rgb(46, 5, 5);
   }
 
-  .button1{
-    background-color: rgb(9, 9, 146);
-    border:2px solid rgb(13, 0, 71);
-    box-shadow: 0 15px 40px 0 rgb(13, 5, 46);
-    }
-
-  .button2{
-    background-color: rgb(150, 2, 2);
-    border: 2px solid rgb(46, 5, 5);
-    box-shadow: 0 15px 40px 0 rgb(46, 5, 5);
-  }
 
 .postDiv{
   color: rgb(16, 15, 20);
-  font-family: 'Mina', sans-serif;
-  font-size: large;
-  background-color: rgb(217, 219, 228);
+  font-family:'Patrick Hand SC', cursive;
+  font-size: x-large;
+  background-color: #ffd369;
   opacity: 0.8;
   margin: 1em;
   padding: 1em;
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
 }
 
 h1{
