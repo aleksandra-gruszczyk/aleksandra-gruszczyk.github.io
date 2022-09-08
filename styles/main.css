@@ -5,6 +5,12 @@ body{
   opacity: 1;
 }
 
+footer{
+  text-align: center;
+  padding: 1.5em;
+  margin: auto;
+}
+
 img{
   max-width: 100%;
   height: auto;
