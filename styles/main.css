@@ -130,3 +130,7 @@ h2{
   font-weight: lighter;
   font-size: 25px;
 }
+
+p{
+  padding: 0, 0, 1em, 0;
+}
