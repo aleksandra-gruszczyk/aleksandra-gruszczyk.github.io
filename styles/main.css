@@ -111,11 +111,9 @@ a:active {
   font-size: x-large;
   background-color: #ffd369;
   opacity: 0.8;
-  margin: 1em;
-  padding: 1em;
   width: 80%;
   max-width: 900px;
-  margin: auto;
+  margin: 1em auto;
 }
 
 h1{
@@ -123,6 +121,7 @@ h1{
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   font-size: 50px;
+  margin-top: 2em;
 }
 
 h2{
@@ -132,5 +131,5 @@ h2{
 }
 
 p{
-  padding: 0, 0, 1em, 0;
+  line-height: 1.1;
 }
